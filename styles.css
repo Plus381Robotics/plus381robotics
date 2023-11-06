@@ -57,7 +57,7 @@ h2 {
     
     background-color:  #91b2b8;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items:center;
  
 }
@@ -102,7 +102,7 @@ main {
 
 .flag {
     padding-top: 15px;
-    margin-left: 650px;
+    margin-left: 200px;
     
 }
 
@@ -142,8 +142,8 @@ main {
 }
 
 .container p{
-    width: 800px;
-    padding-left: 25px;
+    width: 850px;
+    padding-left: 15px;
 }
 
 .section-header {
@@ -167,12 +167,12 @@ main {
 .main-footer {
     background-color: #91b2b8;
     color: white;
-    padding: .2em 0;
+    padding-left: 20px;
 }
 
 .main-footer-container {
     display: flex;
-    align-items: center;
+    
     
 }
 
@@ -183,7 +183,7 @@ main {
 }
 
 .footer-nav li {
-    padding-right: 20px;
+    padding-right: 50px;
     
 }
 
