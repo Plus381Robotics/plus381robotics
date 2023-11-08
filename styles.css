@@ -15,6 +15,8 @@ html, body {
 
 }
 
+
+
 h2 {
     text-align: center;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
@@ -43,7 +45,6 @@ h2 {
 
 .main-nav {
     text-align: center;
-    font-size: 1.1em;
     font-weight: bold;
     
 }
@@ -69,18 +70,17 @@ h2 {
     width: 100%;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
 }
-main {
-    padding-top: 80px; /* Adjust the value to match the height of your header */
-}
-
 
 .flex-container {
     display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 
 .naslov p {
     padding-top: 4px;
-   font-size:x-large;
+    padding-right: 10px;
+   font-size:large;
    color: black;
    text-decoration: none;
    
@@ -92,9 +92,9 @@ main {
 }
 
 .logo img {
-    padding-left: 50px;
+    padding-left: 10px;
     padding-top: 8px;
-    margin-right: 20px;
+    margin-right: 10px;
     max-height: 70px;
     
     
@@ -102,7 +102,7 @@ main {
 
 .flag {
     padding-top: 15px;
-    margin-left: 200px;
+    
     
 }
 
@@ -111,12 +111,17 @@ main {
     margin-left: 15px;
 }
 
+main {
+    padding-top: 80px; /* Adjust the value to match the height of your header */
+}
+
 .triumphs li{
     padding-bottom: 10px;
     
 }
 .triumphs ul {
-    padding-left: 240px;
+    float: left;
+    text-align: center;
 }
 
 .triumphs div1 {
@@ -128,6 +133,12 @@ main {
     padding-left: 200px;
 }
 
+.centered-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
 
 .no-blue {
     text-decoration: none;
@@ -142,8 +153,8 @@ main {
 }
 
 .container p{
-    width: 850px;
-    padding-left: 15px;
+    max-width: 95%;
+    padding-left: 25px;
 }
 
 .section-header {
