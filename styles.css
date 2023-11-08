@@ -108,7 +108,7 @@ h2 {
 
 .eurobot {
     padding-top: 17px;
-    margin-left: 15px;
+    margin-left: 9px;
 }
 
 main {
@@ -178,25 +178,19 @@ main {
 .main-footer {
     background-color: #91b2b8;
     color: white;
-    padding-left: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.main-footer-container {
-    display: flex;
-    
-    
-}
+
 
 .main-footer-container ul {
     flex-grow: 1;
-    
     list-style-type: none;
+    
 }
 
-.footer-nav li {
-    padding-right: 50px;
-    
-}
+
 
 .footer-nav img {
     width: 36px;
