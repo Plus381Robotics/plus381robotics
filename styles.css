@@ -191,7 +191,8 @@ main {
 
 .container div {
   flex-basis: 50%;  /* Makes each item take up 50% of the row (2 columns) */
-  height: 500px;    /* Set the height of each item, adjust as needed */
+  height: auto;    /* Set the height of each item, adjust as needed */
+  width: 100%;
   box-sizing: border-box; /* Ensures padding/border is included in width/height */
 /*  background-color: lightgray; /* Add background for visibility */
 }
