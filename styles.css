@@ -182,12 +182,18 @@ main {
     display: inline-flex;
   /*  grid-template-columns: repeat(auto-fit, minmax(400px, 500px)); /* Adjust the size as needed */
   /*  gap: 5px; /* Adjust the gap between images */ 
-    justify-content: left;
+    justify-content: center;
     align-items: center;
   }
   
   /* Style the individual images */
   .image-grid img {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+  }
+
+.image-grid-1 img {
     width: 100%;
     height:auto;
     object-fit: cover;
