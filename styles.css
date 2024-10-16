@@ -180,7 +180,7 @@ main {
 
 .image-grid-1 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 500px)); /* Adjust the size as needed */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 500px)); /* Adjust the size as needed */
     gap: 5px; /* Adjust the gap between images */
     justify-items: center;
     align-items: center;
