@@ -182,7 +182,7 @@ main {
     display: inline-flex;
   /*  grid-template-columns: repeat(auto-fit, minmax(400px, 500px)); /* Adjust the size as needed */
   /*  gap: 5px; /* Adjust the gap between images */ 
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   }
   
