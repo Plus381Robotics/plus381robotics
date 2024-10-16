@@ -179,7 +179,10 @@ main {
   }
 
 .image-grid-1 {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;  /* Allows wrapping to the next line */
+    gap: 10px;        /* Optional: adds space between items */
+    width: 100%;      /* Adjusts the width of the container */
   /*  grid-template-columns: repeat(auto-fit, minmax(400px, 500px)); /* Adjust the size as needed */
   /*  gap: 5px; /* Adjust the gap between images */ 
     justify-content: center;
