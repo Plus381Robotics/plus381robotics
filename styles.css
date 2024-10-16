@@ -172,8 +172,8 @@ main {
 /* Define the grid container */
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 2fr)); /* Adjust the size as needed */
-    gap: 30px; /* Adjust the gap between images */
+    grid-template-columns: repeat(auto-fill, minmax(105px, 2fr)); /* Adjust the size as needed */
+    gap: 40px; /* Adjust the gap between images */
     justify-content: center;
     align-items: center;
   }
