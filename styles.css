@@ -182,8 +182,8 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 2fr)); /* Adjust the size as needed */
     gap: 5px; /* Adjust the gap between images */
-    justify-content: center;
-    align-items: center;
+  /*  justify-content: center;
+    align-items: center;*/
   }
   
   /* Style the individual images */
