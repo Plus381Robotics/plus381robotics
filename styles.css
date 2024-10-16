@@ -177,6 +177,14 @@ main {
     justify-content: center;
     align-items: center;
   }
+
+.image-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Adjust the size as needed */
+    gap: 10px; /* Adjust the gap between images */
+    justify-content: center;
+    align-items: center;
+  }
   
   /* Style the individual images */
   .image-grid img {
